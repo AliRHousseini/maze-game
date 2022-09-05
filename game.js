@@ -14,6 +14,20 @@ const checkTouching = (value) => {
 
 };
 
+window.addEventListener('click', (e) =>
+{
+    var checkClick = e.target.id;
+    if (checkClick == "start")
+    {
+        score = 0;
+        document.querySelector(".example").innerHTML = score;
+        
+    }
+}
+
+
+);
+
 
 window.addEventListener('mousemove', (e) =>
 {
